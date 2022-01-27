@@ -21,7 +21,7 @@ function lightTheme() {
  let hour = new Date().getHours();
 hour >= 19 || hour < 6 ? darkTheme() : lightTheme(); 
 
-// Weather card
+// Todo Switch
 let chbTodo = document.getElementById('switch_todo');
 let todoCard = document.querySelector('.todo-card');
 let todoCardColor = 'todo-card-color';
