@@ -1,4 +1,4 @@
-# :tea: Sea Storm
+# :tea: Cloudy Snowflake
 ### Startpage with my favourite shortcuts and To-Do List features
 
 ![Preview](https://github.com/sadparadiseinhell/tea-green/blob/main/assets/tea-green-preview.png)
