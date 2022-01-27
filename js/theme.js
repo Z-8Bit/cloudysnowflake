@@ -18,8 +18,8 @@ function lightTheme() {
 }
 
 // Automatic theme change depending on the time of day
-/* let hour = new Date().getHours();
-hour >= 17 || hour < 6 ? darkTheme() : lightTheme(); */
+ let hour = new Date().getHours();
+hour >= 19 || hour < 6 ? darkTheme() : lightTheme(); 
 
 
 // Weather card
