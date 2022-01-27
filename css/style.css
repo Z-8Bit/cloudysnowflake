@@ -14,18 +14,18 @@
 
 	--global-font: var(--open-sans);
 
-	--background: #a0e6de;
-	--foreground: #374259;
-	--header: #374259;
-	--card-bg: #50cfc5;
+	--background: #8ce1d7;
+	--foreground: #414e69;
+	--header: #414e69;
+	--card-bg: #99ffff;
 
-	--todo-bg: #50cf7b;
-	--todo-fg: #242321;
-	--todo-hover: #242321;
-	--todo-input: #b3aa74;
-	--todo-done: #ccc085;
+	--todo-bg: #99ffc1;
+	--todo-fg: #41695a;
+	--todo-hover: #41695a;
+	--todo-input: #99ffc1;
+	--todo-done: #00c953;
 
-	--search: #a6bf99;
+	--search: #000000;
 
 	--card-shadow-color: rgba(0, 0, 0, 0.35);
 }
@@ -33,13 +33,13 @@
 /* Dark theme */
 [theme="dark"] {
 	--background: #191E29;
-	--foreground: #50bfcf;
-	--header: #50bfcf;
+	--foreground: #99ffff;
+	--header: #99ffff;
 	--card-bg: #202633;
 
 	--todo-bg: #202633;
-	--todo-fg: #50bfcf;
-	--todo-hover: #50bfcf;
+	--todo-fg: #99ffff;
+	--todo-hover: #99ffff;
 	--todo-input: #202633;
 	--todo-done: #23737f;
 
@@ -61,7 +61,7 @@ body {
 	justify-content: center;
 	height: 100vh;
 	overflow: hidden;
-	transition: .5s;
+	transition: 0.5s;
 }
 
 input[type="checkbox"] {display: none;}
@@ -79,13 +79,13 @@ input[type="checkbox"] {display: none;}
 	height: 340px;
 	border-radius: 8px;
 	box-shadow: 0px 4px 35px var(--card-shadow-color);
-	transition: background-color .7s, box-shadow .7s;
+	transition: background-color .5s, box-shadow .5s;
 }
 
 .todo-card-color {
 	background: var(--todo-bg);
 	box-shadow: 0px 2px 20px var(--card-shadow-color);
-	transition: background-color 1s, box-shadow 1s;
+	transition: background-color 0.7s, box-shadow 0.7s;
 }
 
 .hide {
@@ -99,7 +99,7 @@ input[type="checkbox"] {display: none;}
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	transition: .5s;
+	transition: .4s;
 }
 
 .links {
@@ -110,7 +110,7 @@ input[type="checkbox"] {display: none;}
 	justify-content: center;
 	margin: 25px 25px 0px 25px;
 	opacity: 1;
-	transition: 1s;
+	transition: .2s;
 	z-index: 1;
 }
 
@@ -142,16 +142,16 @@ input[id="searchbox"]:focus {
 }
 
 .search {
-	margin: 25px 0px 25px 0px;
+	margin: 25px 0px 15px 0px;
 	border: none;
 	opacity: 1;
-	transition: 1s;
+	transition: .3s;
 	z-index: 1;
 }
 
 input[id="searchbox"] {
 	font-family: var(--global-font);
-	font-size: 22px;
+	font-size: 23px;
 	color: var(--header);
 	text-align: center;
 	background: transparent;
@@ -187,16 +187,16 @@ input[id="searchbox"]:hover::placeholder {
 	font-size: 25px;
 	content: "\f186";
 	cursor: pointer;
-	transition: .2s;
+	transition: .0s;
 }
 
 .chb_theme + label::before {color: #374259;}
 
-.chb_theme + label:hover::before {color: #374259;}
+.chb_theme + label:hover::before {color: #f0ff99;}
 
-.chb_theme:checked + label::before {color: #50cf7b;}
+.chb_theme:checked + label::before {color: #f0ff99;}
 
-.chb_theme:checked + label:hover::before {color: #50cf7b;}
+.chb_theme:checked + label:hover::before {color: #eeeeee;}
 
 .buttons {
 	position: absolute;
