@@ -16,12 +16,12 @@ function search(query) {
 	switch (query.substr(0, 2)) {
 		case '!g':
 			query = query.substr(3);
-			window.open('https://google.com/search?q=' +
-				query.replaceChars(' ', '%20'), '_blank');
+			window.location.href = ('https://google.com/search?q=' +
+				query.replaceChars(' ', '%20'));
 			break;
 		default:
-			window.open('https://www.duckduckgo.com/' +
-				query.replaceChars(' ', '%20'), '_blank');
+			window.location.href = ('https://www.duckduckgo.com/' +
+				query.replaceChars(' ', '%20'));
 	}
 }
 
