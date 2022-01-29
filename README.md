@@ -1,7 +1,8 @@
 # Cloudy Snowflake
 ### Startpage with my favourite shortcuts and To-Do List features
 
-![Preview](https://github.com/sadparadiseinhell/tea-green/blob/main/assets/tea-green-preview.png)
+![image](https://user-images.githubusercontent.com/72144072/151654533-ae7dad5d-f0dc-4a54-829e-5af912cb86a8.png)
+
 
 ## Features
 - **Dark/Light Theme** changes depending on the time of day, you can also switch it manually. 
