@@ -2,6 +2,8 @@
 ### Startpage with my favourite shortcuts and To-Do List features
 
 ![image](https://user-images.githubusercontent.com/72144072/151654533-ae7dad5d-f0dc-4a54-829e-5af912cb86a8.png)
+![image](https://user-images.githubusercontent.com/72144072/151654568-373a95c1-8237-4998-bc51-fd23a9e73e7e.png)
+
 
 
 ## Features
