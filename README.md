@@ -10,6 +10,6 @@
 - **Search** gives you the ability to search on any sites that you can add yourself, !g for google.
 
 ## Other Startpages of mine.
-- [TreeBreeze](https://github.com/Z-8Bit/treebreeze) The same startpage as this but with an alternate colour scheme.
-- [OceanBliss](https://github.com/Z-8Bit/oceanbliss) A simpler and faster startpage with bigger buttons.
+- [TreeBreeze](https://github.com/Z-8Bit/treebreeze) : The same startpage as this but with an alternate colour scheme.
+- [OceanBliss](https://github.com/Z-8Bit/oceanbliss) : A simpler and faster startpage with bigger buttons.
 
